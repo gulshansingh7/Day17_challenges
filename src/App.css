@@ -1,0 +1,79 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  /* Main App container */
+  .app {
+    text-align: center;
+  }
+  
+  /* Google Logo */
+  .app__logo img {
+    width: 272px;
+    height: 92px;
+    object-fit: contain;
+    margin-bottom: 50px;
+   
+  }
+  
+
+
+  
+  .app__search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .app__searchInput {
+    width: 60%;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    outline: none;
+  }
+  
+  .app__searchInput:focus {
+    border: 1px solid #4285f4;
+  }
+  
+  /* Buttons */
+  .app__buttons {
+    margin-top: 20px;
+  }
+  
+  .app__button {
+    background-color: #f8f8f8;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .app__button:hover {
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+  }
+  
+  .state{
+    background-color:gold;
+    padding: 4px;
+    border-radius: 3px solid yellow;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .info{
+    background-color:palegoldenrod;
+    font-weight: bolder;
+  }
